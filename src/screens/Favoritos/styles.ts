@@ -36,13 +36,16 @@ export const styles = StyleSheet.create({
 
     //-------------------------------------------
 
-    Text: {
+    subtitle: {
         color: '#000',
         backgroundColor: '#ffff',
         marginTop: 15,
         fontSize: 20,
-        letterSpacing: 1,
-        fontFamily: 'BebasNeue_400Regular',
+        fontFamily: 'BebasNeue_400Regular'
+    },
+
+    lista: {
+        fontWeight: 'bold'
     },
 
     //-------------------------------------------
@@ -88,5 +91,22 @@ export const styles = StyleSheet.create({
         fontSize: 15,
         letterSpacing: 1,
         fontFamily: 'BebasNeue_400Regular'
-    }
+    },
+
+    button2: {
+        backgroundColor: '#ffff',
+        borderWidth: 1,
+        borderColor: 'grey',
+        alignItems: 'center',
+        marginTop: 15,
+        width: '100%',
+        padding: 15
+    },
+
+    buttonText2: {
+        color: 'grey',
+        fontSize: 15,
+        letterSpacing: 1,
+        fontFamily: 'BebasNeue_400Regular'
+    },
 })

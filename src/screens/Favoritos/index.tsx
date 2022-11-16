@@ -35,8 +35,8 @@ export const Favoritos = () => {
                 </Text>
             </Text>
 
-            <Text style={styles.Text}>
-                <Text>
+            <Text style={styles.subtitle}>
+                <Text style={styles.lista}>
                     LISTA DE LUIZA
                 </Text>
                 <Text>
@@ -57,7 +57,7 @@ export const Favoritos = () => {
 
                         <Text style={styles.Text4}>
                             R$ 150,00
-                            <Fontisto name="favorite" size={24} color="black" />
+                            <Fontisto name="favorite" size={13} color="black" />
                         </Text>
 
                         <TouchableOpacity
@@ -79,7 +79,7 @@ export const Favoritos = () => {
 
                         <Text style={styles.Text4}>
                             R$ 180,00
-                            <Fontisto name="favorite" size={24} color="black" />
+                            <Fontisto name="favorite" size={13} color="black" />
                         </Text>
 
                         <TouchableOpacity
@@ -101,14 +101,14 @@ export const Favoritos = () => {
 
                         <Text style={styles.Text4}>
                             R$ 210,00
-                            <Fontisto name="favorite" size={24} color="black" />
+                            <Fontisto name="favorite" size={13} color="black" />
                         </Text>
 
                         <TouchableOpacity
-                            activeOpacity={0.4}
-                            style={styles.button}>
-
-                            <Text style={styles.buttonText}>
+                            activeOpacity={1}
+                            style={styles.button2}
+                        >
+                            <Text style={styles.buttonText2}>
                                 OUT OF STOCK
                             </Text>
                         </TouchableOpacity>
@@ -123,7 +123,7 @@ export const Favoritos = () => {
 
                         <Text style={styles.Text4}>
                             R$ 90,00
-                            <Fontisto name="favorite" size={24} color="black" />
+                            <Fontisto name="favorite" size={13} color="black" />
                         </Text>
 
                         <TouchableOpacity
