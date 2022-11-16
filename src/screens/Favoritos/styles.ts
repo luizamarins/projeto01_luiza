@@ -34,9 +34,6 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
 
-    icone2: {
-    },
-
     //-------------------------------------------
 
     Text: {

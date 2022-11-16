@@ -31,7 +31,7 @@ export const Favoritos = () => {
                 SACOLA
                 <Text style={styles.title2}>
                     FAVORITOS
-                    <Fontisto style={styles.icone2} name="favorite" size={22} color="black" />
+                    <Fontisto name="favorite" size={22} color="black" />
                 </Text>
             </Text>
 
